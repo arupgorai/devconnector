@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://arup123:arup123@mern-cluster.28tjt.mongodb.net/devconnector?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://arup123:arup123@mern-cluster.28tjt.mongodb.net/devconnector?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken"
 }
