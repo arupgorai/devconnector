@@ -1,4 +1,6 @@
 {
   "mongoURI": "mongodb+srv://arup123:arup123@mern-cluster.28tjt.mongodb.net/devconnector?retryWrites=true&w=majority",
-  "jwtSecret": "mysecrettoken"
+  "jwtSecret": "mysecrettoken",
+  "githubClientId": "d67af2ab18fbd74b62d1",
+  "githubSecret": "6d5aa5b97d2e4fdadc6a062280933a9d0b1bbfaa"
 }
