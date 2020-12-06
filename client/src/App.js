@@ -18,7 +18,7 @@ if (localStorage.token) {
 }
 
 const App = () => {
-
+  // auth flow
   useEffect(() => {
     store.dispatch(loadUser());
   }, []);
