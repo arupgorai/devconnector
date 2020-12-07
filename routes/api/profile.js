@@ -55,7 +55,6 @@ router.post('/', [auth, [
     instagram,
     linkedin,
   } = req.body;
-
   // build profile object
   const profileFields = {};
 
