@@ -195,7 +195,7 @@ router.put('/experience', [auth, [
     await profile.save();
     res.json(profile);
   } catch (err) {
-    console.err(err.message);
+    console.error(err.message);
     res.status(500).send('Server Error')
   }
 });
