@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import PostItem from '../posts/PostItem';
 import Spinner from '../layout/Spinner';
+import CommentForm from './CommentForm';
 import { getPost } from '../../actions/post';
 
 const Post = ({ getPost, post: { post, loading }, match }) => {
@@ -18,6 +19,7 @@ const Post = ({ getPost, post: { post, loading }, match }) => {
         <>
           <Link to='/posts' className="btn">Back to Posts</Link>
           <PostItem post={post} showActions={false} />
+          <CommentForm postId={post._id} />
         </>
       )}
     </>
